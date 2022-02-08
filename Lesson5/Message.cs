@@ -62,7 +62,7 @@ namespace Lesson5
             {
                 if(word.Length > maxLength)
                 {
-                    sb = new StringBuilder(word);
+                    sb = new StringBuilder(word + " ");
                     maxLength = word.Length;
                 }
                 else if (word.Length == maxLength)
