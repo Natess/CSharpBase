@@ -6,8 +6,6 @@ namespace Lesson5
 {
     internal class Program
     {
-        static Random randomizer = new Random();
-
         static void Main(string[] args)
         {
             Console.WriteLine("Кузнецова Анастасия");
